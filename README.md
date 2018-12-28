@@ -5,7 +5,8 @@ https://towardsdatascience.com/federated-byzantine-agreement-24ec57bf36e0
 https://towardsdatascience.com/federated-byzantine-agreement-24ec57bf36e0
 
 My design is below,
-Part I
+Part I--
+
 In the part I, you will be building a key-value datastore service that persists user wallet info: username and balance. If a user does not exist in DB yet, the service will create a new entry with a given value. Otherwise, the user wallet will be updated with the new amount.
 
 For the node-2-node communication, you must use UDP protocol.
